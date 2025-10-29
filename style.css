@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #66BB6A;
+  height: 20vh;
+  color: #ffffff;
+  /* O nav também é block por padrão, então muda o comportamento */
+}
+header h2 {
+  display: block;
+  display: inline;
+  display: inline-block;
+  width: 40%;
+  padding-left: 160px;
+  margin-top: 40px;
+  font-family: "Sansita Swashed", system-ui;
+}
+header nav {
+  display: block;
+  display: inline;
+  width: 40%;
+  display: inline-block;
+  text-align: end;
+}
+header nav a {
+  margin-left: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background {
+  background-image: url("./assets/background.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  background-position: center;
+  padding-top: 200px;
+}
+.background h1 {
+  font-family: "Sansita Swashed", system-ui;
+}
+.background p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
