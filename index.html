@@ -1,31 +1,108 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Verde Ação</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h2>Verde Ação</h2>
 
-        <nav>
-            <a href="#">Atividades</a>
-            <a href="#">Cadastre-se</a>
-        </nav>
+ <link rel="stylesheet" href="style.css"/>
+    <title>Verde Ação</title>
+  </head>
+  <body>
+    <header>
+      <h2>Verde Ação</h2>
+      <nav>
+        <a href="#">Atividades</a>
+        <a href="#">Cadastre-se</a>
+      </nav>
     </header>
 
     <main>
-        <section class="background">
+      <!-- ===== Banner ===== -->
+      <section>
+        <div class="banner-container">
+          <div class="banner-content">
             <h1>Verde Ação</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam deserunt officia cum rem obcaecati harum beatae, veniam, adipisci dolore veritatis sint omnis soluta commodi corporis placeat. Dolorum, consequatur rerum!
+            <p>
+              Ser voluntário na Verde Ação é plantar esperança e colher
+              transformação. Juntos, cuidamos do planeta e inspiramos mudanças
+              reais.
             </p>
-            <button>Se inscreva</button>
-        </section>
+            <button>Quero ser voluntário</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Cards ===== -->
+      <section class="cards-section">
+        <h2>Nossas ações</h2>
+        <div class="cards-container">
+
+          <article class="card">
+            <img src="./assets/girassol.png" alt="Plantio de árvores" />
+            <h3>Plantio de Árvores</h3>
+            <p>Participe com a gente</p>
+            <button>Ver mais</button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/criancas.png" alt="Educação ambiental" />
+            <h3>Educação Ambiental</h3>
+            <p>Participe com a gente</p>
+            <button>Ver mais</button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/plantacao.png" alt="Horta comunitária" />
+            <h3>Horta Comunitária</h3>
+            <p>Participe com a gente</p>
+            <button>Ver mais</button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/florestas.png" alt="Preservação das florestas" />
+            <h3>Preservação das Florestas</h3>
+            <p>Participe com a gente</p>
+            <button>Ver mais</button>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="form-container">
+          <h2>Inscreva-se</h2>
+          <form>
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" class="input" placeholder="Nome" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" class="input" placeholder="Email" />
+            </div>
+            <div>
+              <label for="cidade">Cidade</label>
+              <input type="cidade" class="input" placeholder="Cidade" />
+            </div>
+             <div>
+              <label for="atividade">Atividade</label>
+             <select name="atividade" id="atividade">
+              <option value="">Selecione</option>
+               <option value="front">Frontend</option>
+               <option value="back">Backend</option>
+             </select>
+             <button>Cadastre-se</button>
+          </form>
+        </div>
+      </section>
     </main>
-</body>
+
+    <footer>
+      <p>
+        © 2025 Verde Ação — Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
 </html>
